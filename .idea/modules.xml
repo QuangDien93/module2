@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/baitap1/baitap1.iml" filepath="$PROJECT_DIR$/baitap1/baitap1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baitap2/baitap2.iml" filepath="$PROJECT_DIR$/baitap2/baitap2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baitap3/baitap3/baitap3.iml" filepath="$PROJECT_DIR$/baitap3/baitap3/baitap3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baitap3/baitap4lopdoituong/baitap4lopdoituong.iml" filepath="$PROJECT_DIR$/baitap3/baitap4lopdoituong/baitap4lopdoituong.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baitap5/baitap5.iml" filepath="$PROJECT_DIR$/baitap5/baitap5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/baitapmodule2.iml" filepath="$PROJECT_DIR$/.idea/baitapmodule2.iml" />
+    </modules>
+  </component>
+</project>
