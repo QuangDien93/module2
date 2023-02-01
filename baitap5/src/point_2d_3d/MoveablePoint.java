@@ -1,10 +1,15 @@
 package point_2d_3d;
 
-public class MoveablePoint extends Point2D{
+public class MoveablePoint extends Point2D {
     private float xSpeed = 0.0f;
     private float ySpeed = 0.0f;
-    public MoveablePoint(){};
-    public MoveablePoint(float xSpeed, float ySpeed){
+
+    public MoveablePoint() {
+    }
+
+    ;
+
+    public MoveablePoint(float xSpeed, float ySpeed) {
         this.xSpeed = xSpeed;
         this.ySpeed = ySpeed;
     }
@@ -30,23 +35,25 @@ public class MoveablePoint extends Point2D{
     public void setYSpeed(float ySpeed) {
         this.ySpeed = ySpeed;
     }
-    public void setSpeed(float xSpeed, float ySpeed ){
+
+    public void setSpeed(float xSpeed, float ySpeed) {
         this.xSpeed = xSpeed;
         this.ySpeed = ySpeed;
     }
-    public float[] getSpeed(){
-        float[] array = {xSpeed,ySpeed};
+
+    public float[] getSpeed() {
+        float[] array = {xSpeed, ySpeed};
         return array;
     }
 
     @Override
     public String toString() {
-        return "("+getX()+","+getY()+"),speed=("+xSpeed+","+ySpeed+")";
+        return "(" + getX() + "," + getY() + "),speed=(" + xSpeed + "," + ySpeed + ")";
     }
 
-    public void move(){
-        setX(this.xSpeed+getX());
-        setY(this.ySpeed+getY());
+    public void move() {
+        setX(this.xSpeed + getX());
+        setY(this.ySpeed + getY());
     }
 
 }
