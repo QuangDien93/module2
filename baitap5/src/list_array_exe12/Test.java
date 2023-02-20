@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class Test {
     static ProductRepo listPro = new ProductRepo();
-    static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
         do {
             System.out.println("Bạn đang muốn:");
             System.out.println("1. Thêm sản phẩm:");
@@ -18,21 +18,22 @@ public class Test {
             System.out.println("7. Sắp xếp Giá tăng dần:");
             System.out.println("8. Sắp xếp Giá giảm dần:");
             System.out.println("otherNumber. Thoát chương trình");
-            switch (scanner.nextInt()) {
+            int select = Integer.parseInt(scanner.nextLine());
+            switch (select) {
                 case 1:
                     System.out.println("Nhập ID");
                     String idAdd = scanner.nextLine();
                     System.out.println("Nhập tên:");
                     String name = scanner.nextLine();
                     System.out.println("Nhập giá:");
-                    int price = scanner.nextInt();
+                    int price = Integer.parseInt(scanner.nextLine());
                     listPro.addPro(new Product(idAdd, name, price));
                     break;
                 case 2:
                     System.out.println("Nhập ID sản phẩm:");
                     String idEditPrice = scanner.nextLine();
                     System.out.println("Nhập giá");
-                    int priceEdit = scanner.nextInt();
+                    int priceEdit = Integer.parseInt(scanner.nextLine());
                     listPro.editPriceProById(idEditPrice, priceEdit);
                     break;
                 case 3:

@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.Comparator;
 
 public class ProductRepo {
-    private ArrayList<Product> listPro;
+    private ArrayList<Product> listPro = new ArrayList<>();
 
     public ProductRepo() {
         this.listPro = new ArrayList<>();
