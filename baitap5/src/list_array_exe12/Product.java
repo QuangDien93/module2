@@ -14,7 +14,7 @@ public class Product {
         this.pricePro = pricePro;
     }
 
-    public String getIdPro() {
+    public   String getIdPro() {
         return idPro;
     }
 

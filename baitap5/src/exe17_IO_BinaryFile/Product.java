@@ -2,7 +2,8 @@ package exe17_IO_BinaryFile;
 
 import java.io.Serializable;
 
-public class Product implements Comparable<Product>{
+public class Product implements Comparable<Product>, Serializable {
+    private static final long serialVersionUID = 1L;
 
     private String code;
     private String name;
